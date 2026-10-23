@@ -29,7 +29,6 @@
             padding: 0 20px;
         }
 
-        /* Hero Section có hình ảnh làm nền tối màu để nổi bật chữ */
         .hero {
             background: linear-gradient(rgba(44, 30, 22, 0.85), rgba(44, 30, 22, 0.95)), url('https://images.unsplash.com/photo-1559525839-b184a4d698c7?q=80&w=1000&auto=format&fit=crop') center/cover;
             color: white;
@@ -59,7 +58,6 @@
             margin-bottom: 25px;
         }
 
-        /* Khối bán hàng nổi bật */
         .sales-box {
             background: white;
             padding: 40px 20px 30px;
@@ -97,6 +95,16 @@
             margin-bottom: 20px;
         }
 
+        /* Thêm style cho ảnh sản phẩm chính */
+        .main-product-img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+            margin: 10px auto 25px;
+            display: block;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+
         .benefit-list {
             text-align: left;
             list-style: none;
@@ -127,7 +135,6 @@
             font-weight: bold;
         }
 
-        /* Khu vực Tặng kèm */
         .bonus-section {
             background-color: #f2e9e1;
             border-radius: 12px;
@@ -151,7 +158,6 @@
             margin-top: 15px;
         }
 
-        /* CTA Sticky */
         .sticky-cta-bar {
             position: fixed;
             bottom: 0;
@@ -207,6 +213,10 @@
             <h2>Combo Bộ Ba Gu Đậm</h2>
             <div class="price-tag">59.000đ</div>
             <span class="price-sub">Combo 3 gói (150g) - Pha chuẩn 6 ly cà phê đậm đà</span>
+            
+            <!-- VỊ TRÍ HÌNH ẢNH SẢN PHẨM MỚI -->
+            <!-- Chú ý: Đổi chữ "combo-3-gu.jpg" thành đúng tên file ảnh bạn up lên Github -->
+            <img src="combo-3-gu.jpg" alt="Combo Bộ Ba Gu Đậm Dalatca" class="main-product-img">
             
             <ul class="benefit-list">
                 <li><strong>Trải nghiệm trọn vẹn 3 gu:</strong> ĐẬM (Robusta 100%), ÊM (Blend 90/10), THƠM (Blend 80/20).</li>
