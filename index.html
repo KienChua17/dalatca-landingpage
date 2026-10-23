@@ -6,8 +6,8 @@
     <title>Dalatca - Khám Phá Bộ 3 Gu Đậm</title>
     <style>
         :root {
-            --primary-color: #2c1e16; /* Nâu đen cà phê */
-            --accent-color: #d35400; /* Cam cháy kích thích mua */
+            --primary-color: #2c1e16;
+            --accent-color: #d35400;
             --bg-color: #fcf9f5;
             --text-color: #333;
             --gold: #d4af37;
@@ -16,7 +16,7 @@
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             margin: 0;
-            padding: 0 0 80px 0; /* Chừa không gian cho nút mua dính đáy */
+            padding: 0 0 80px 0;
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
@@ -28,7 +28,6 @@
             padding: 0 20px;
         }
 
-        /* Hook & Hero Section */
         .hero {
             background: linear-gradient(rgba(44, 30, 22, 0.9), rgba(44, 30, 22, 0.95)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1000&auto=format&fit=crop') center/cover;
             color: white;
@@ -41,8 +40,8 @@
             font-weight: bold;
             letter-spacing: 2px;
             text-transform: uppercase;
-            font-size: 0.9rem;
-            margin-bottom: 15px;
+            font-size: 1rem;
+            margin-bottom: 20px;
             display: block;
         }
 
@@ -58,7 +57,6 @@
             margin-bottom: 25px;
         }
 
-        /* Benefits / Vấn đề - Giải pháp */
         .benefits {
             background: white;
             padding: 40px 20px;
@@ -74,6 +72,7 @@
             color: var(--primary-color);
             margin-top: 0;
             font-size: 1.5rem;
+            text-transform: uppercase;
         }
 
         .benefit-list {
@@ -116,7 +115,6 @@
             display: block;
         }
 
-        /* Images */
         .image-container {
             display: flex;
             flex-direction: column;
@@ -130,7 +128,6 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        /* Sticky CTA Bar cho Mobile & Desktop */
         .sticky-cta-bar {
             position: fixed;
             bottom: 0;
@@ -153,7 +150,7 @@
             color: white;
             text-decoration: none;
             padding: 15px 40px;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
             border-radius: 50px;
             text-transform: uppercase;
@@ -169,7 +166,7 @@
             font-size: 1.2rem;
             font-weight: bold;
             color: var(--primary-color);
-            display: none; /* Ẩn trên mobile nhỏ */
+            display: none;
         }
 
         @keyframes pulse {
@@ -187,40 +184,38 @@
 
     <div class="hero">
         <div class="container">
-            <span class="hook-text">Đừng chọn theo số đông, hãy chọn theo gu</span>
-            <h1>Hơn 80% người uống cà phê tại nhà chưa tìm được gu thật sự của mình!</h1>
-            <p>Khó chọn giữa Robusta đậm đà hay Blend êm ái? Dalatca mang đến giải pháp hoàn hảo giúp bạn tự tay pha chuẩn vị ngay tại nhà.</p>
+            <span class="hook-text">"Đừng chọn cà phê theo số đông. Hãy chọn theo gu của bạn."</span>
+            <h1>BẠN ĐÃ BIẾT CÁCH PHA MỘT LY CÀ PHÊ PHIN NGON TẠI NHÀ?</h1>
+            <p>Một ly cà phê ngon không chỉ phụ thuộc vào loại cà phê bạn chọn, mà còn nằm ở cách bạn pha. Dalatca giúp bạn khám phá 3 mức hương vị và hướng dẫn cách pha phin phù hợp để tìm ra ly cà phê bạn thực sự yêu thích.</p>
         </div>
     </div>
 
     <div class="container">
         <div class="benefits">
-            <h2>Khám Phá Combo 3 Gu Đậm - Dalatca</h2>
+            <h2>Combo Bộ Ba Gu Đậm<br><span style="font-size: 1.1rem; color: #555; text-transform: none;">Khám phá 3 gu cà phê - Tìm đúng gu của bạn</span></h2>
             <ul class="benefit-list">
-                <li><strong>Trải nghiệm 3 dòng:</strong> Đậm (Robusta 100%), Êm (Blend 90/10), Thơm (Blend 80/20).</li>
-                <li><strong>Thẻ hướng dẫn độc quyền:</strong> Công thức pha phin chuẩn "1 giọt / 1 giây".</li>
-                <li><strong>Tiết kiệm chi phí:</strong> Thử nghiệm lượng nhỏ trước khi quyết định mua gói lớn.</li>
-                <li><strong>Cà phê mộc, sạch 100%:</strong> Rõ vị, không tẩm ướp, an toàn cho sức khỏe.</li>
+                <li><strong>Trải nghiệm 3 gu dễ nhớ trong 1 combo (150g):</strong> ĐẬM (Robusta 100%), ÊM (Blend 90/10) và THƠM (Blend 80/20).</li>
+                <li><strong>Giải pháp cho người chưa biết gu:</strong> Thử nghiệm lượng nhỏ (50g/gói) trước khi quyết định mua gói lớn.</li>
+                <li><strong>Bảng so sánh hương vị:</strong> Giúp bạn dễ dàng nhận biết và tìm đúng gu yêu thích.</li>
+                <li><strong>Kèm thẻ hướng dẫn pha phin chi tiết:</strong> Dễ dàng tự làm tại nhà với chuẩn chiết xuất "1 giọt / 1 giây".</li>
             </ul>
             
             <div class="price-box">
-                <span>Chỉ với</span>
+                <span>Bộ cà phê trải nghiệm 3 vị – Chỉ</span>
                 <span class="price">59.000đ</span>
-                <span>/ Combo 3 gói x 50g</span>
+                <span>Giá dễ tiếp cận cho 3 gói x 150g (tổng)</span>
             </div>
         </div>
 
         <div class="image-container">
             <img src="Infographic Combo Bộ Ba Gu Đậm Dahlatca.png" alt="Chiến Dịch Combo Bộ Ba Gu Đậm">
-            <img src="thẻ hướng dẫn phin.png" alt="Hướng Dẫn Pha Phin 1 Giọt 1 Giây">
+            <img src="thẻ hướng dẫn phin.png" alt="Hướng Dẫn Pha Phin">
         </div>
     </div>
 
-    <!-- Thanh đặt hàng luôn bám sát màn hình -->
     <div class="sticky-cta-bar">
-        <span class="sticky-price">Combo 3 Vị: 59K</span>
-        <!-- Thay link # bằng link Google Form, Zalo hoặc Messenger của bạn -->
-        <a href="#" class="cta-button">ĐẶT MUA NGAY</a>
+        <span class="sticky-price">Combo 3 Vị: 59.000đ</span>
+        <a href="#" class="cta-button">KHÁM PHÁ BỘ CÀ PHÊ 3 VỊ</a>
     </div>
 
 </body>
